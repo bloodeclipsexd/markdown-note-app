@@ -1,0 +1,1 @@
+INSERT INTO note(id, title, content) VALUES (NEXT VALUE FOR note_seq, 'Initial note', FILE_READ('classpath:\db\HELP.md'))
